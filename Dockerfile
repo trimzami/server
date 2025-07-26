@@ -34,4 +34,4 @@ RUN set -ex && apk add --no-cache \
 EXPOSE 8080
 
 # Default command (use php built-in server)
-CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "app"]
