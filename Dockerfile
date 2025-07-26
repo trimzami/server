@@ -25,5 +25,4 @@ RUN set -ex && apk add --no-cache \
         zip \
         pcntl \
         bcmath \
-    && echo "extension=mysqli.so" > /usr/local/etc/php/conf.d/mysqli.ini \
     && apk del $PHPIZE_DEPS
